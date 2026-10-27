@@ -1,0 +1,4 @@
+* text=auto eol=lf
+*.sh text eol=lf
+# Preserve the course CSV byte-for-byte, including its original CRLF line endings.
+data/*.csv -text whitespace=cr-at-eol
